@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://www.m-yes2win.vip/sitemap.xml
