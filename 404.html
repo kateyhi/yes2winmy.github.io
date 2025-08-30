@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+        
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            color: #e6e6e6;
+            line-height: 1;
+            margin-bottom: 20px;
+            letter-spacing: -5px;
+            text-shadow: 2px 2px 0 #fff;
+        }
+        
+        .error-title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #444;
+        }
+        
+        .error-message {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #666;
+        }
+        
+        .home-button {
+            display: inline-block;
+            padding: 16px 32px;
+            background-color: #1f6524;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(31, 101, 36, 0.2);
+        }
+        
+        .home-button:hover {
+            background-color: #17481d;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(31, 101, 36, 0.3);
+        }
+        
+        .home-button:active {
+            transform: translateY(0);
+        }
+        
+        .logo {
+            margin-bottom: 30px;
+            max-width: 200px;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 600px) {
+            .error-code {
+                font-size: 80px;
+            }
+            
+            .error-title {
+                font-size: 24px;
+            }
+            
+            .error-message {
+                font-size: 16px;
+            }
+            
+            .container {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="error-code">404</h1>
+        <h2 class="error-title">Page Not Found</h2>
+        <p class="error-message">We're sorry, but the page you're looking for doesn't exist. It might have been moved, deleted, or perhaps you entered the wrong URL.</p>
+        <a href="https://www.m-yes2win.vip/" class="home-button">Return to Homepage</a>
+    </div>
+</body>
+</html>
